@@ -1,0 +1,37 @@
+# Requerimientos del Sistema GourmetExpress
+
+## Requerimientos funcionales
+
+| No. | Descripción del requerimiento | Prioridad |
+|---|---|---|
+| RF-01 | El sistema debe permitir a los clientes buscar productos por nombre, categoría, origen, precio o características especiales como sin gluten, orgánico o vegano. | Alta |
+| RF-02 | El sistema debe permitir a los clientes navegar de forma intuitiva entre las diferentes secciones del portal de comercio electrónico. | Alta |
+| RF-03 | El sistema debe permitir visualizar la información de cada producto, incluyendo nombre, categoría, precio, origen, disponibilidad y características especiales. | Alta |
+| RF-04 | El sistema debe permitir a los usuarios registrados agregar productos al carrito de compras. | Alta |
+| RF-05 | El sistema debe permitir a los usuarios registrados guardar productos en una lista de favoritos. | Media |
+| RF-06 | El sistema debe permitir a los usuarios registrados gestionar múltiples direcciones de entrega. | Alta |
+| RF-07 | El sistema debe permitir completar pedidos seleccionando métodos de pago como tarjeta de crédito, tarjeta de débito, transferencia bancaria o PayPal. | Alta |
+| RF-08 | El sistema debe permitir dar seguimiento en tiempo real al estado de los pedidos, mostrando las etapas: preparación, enviado, en tránsito, entregado o cancelado. | Alta |
+| RF-09 | El sistema debe permitir a los clientes cancelar pedidos antes de que superen la fase de preparación. | Alta |
+| RF-10 | El sistema debe permitir a los clientes solicitar devoluciones o cambios cuando los productos entregados no cumplan con lo solicitado. | Media |
+| RF-11 | El sistema debe permitir al equipo administrativo gestionar productos y categorías. | Alta |
+| RF-12 | El sistema debe impedir eliminar categorías que tengan productos asociados. | Alta |
+| RF-13 | El sistema debe permitir configurar promociones por porcentaje o por monto fijo. | Media |
+| RF-14 | El sistema debe controlar el inventario y generar alertas automáticas cuando los niveles bajen de un límite mínimo definido. | Alta |
+| RF-15 | El sistema debe enviar notificaciones automáticas por correo electrónico y SMS sobre estados de pedidos, promociones vigentes y cambios en productos favoritos. | Media |
+| RF-16 | El sistema debe permitir generar, analizar y exportar reportes de ventas y desempeño por períodos definidos. | Media |
+
+---
+
+## Requerimientos no funcionales
+
+| No. | Descripción del requerimiento | Prioridad |
+|---|---|---|
+| RNF-01 | El sistema debe contar con una interfaz responsiva, accesible desde dispositivos móviles y computadoras. | Alta |
+| RNF-02 | El sistema debe responder en menos de 2 segundos para al menos 5,000 usuarios simultáneos. | Alta |
+| RNF-03 | El sistema debe realizar copias de seguridad diarias para proteger la información del negocio y de los usuarios. | Alta |
+| RNF-04 | El sistema debe contar con mecanismos de recuperación ante fallos en menos de una hora. | Alta |
+| RNF-05 | El sistema debe garantizar la integridad y confidencialidad de la información personal y de pago de los clientes. | Alta |
+| RNF-06 | El sistema debe cumplir con normativas locales e internacionales relacionadas con la seguridad y protección de datos. | Alta |
+| RNF-07 | El sistema debe ser escalable para acompañar el crecimiento del catálogo de productos y de la base de clientes. | Media |
+| RNF-08 | El sistema debe ser fácil de mantener para permitir actualizaciones, correcciones y mejoras futuras. | Media |
